@@ -10,16 +10,15 @@ export default function Header() {
     <div className="flex justify-between mx-2 max-w-6xl sm:mx-auto items-center py-6">
       <div className="flex">
         <MenuItem title="HOME" address="/" Icon={AiTwotoneHome} />
-        <MenuItem title="ABOUT" address="/about" Icon={BsInfoSquareFill} />
+        <MenuItem title="SOBRE" address="/about" Icon={BsInfoSquareFill} />
       </div>
       <div className="flex items-center space-x-5">
         <DarkModeSwitch/>
         <Link href="/">
           <h2 className="text-2xl">
-            <span className="font-bold bg-blue-800 py-1 px-2 rounded-lg text-orange-400 mr-1">
-              IMDb
+            <span className="font-bold bg-blue-500 py-1 px-2 rounded-lg text-white mr-1">
+              Gama Movies
             </span>
-            <span className="text-xl hidden sm:inline">Clone</span>
           </h2>
         </Link>
       </div>
