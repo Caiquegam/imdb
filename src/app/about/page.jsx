@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div className="max-w-6xl mx-auto space-y-4">
+    <div className="max-w-6xl mx-auto space-y-4 p-5">
       <h1 className="text-2xl font-medium text-orange-600">Sobre</h1> <br />
       <p className='text-left'>
       <strong>Bem-vindo ao Gama Movies: Seu Destino Cinematográfico</strong><br />
